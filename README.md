@@ -11,8 +11,7 @@ This project leverages .NET 6 (Long Term Support) to create a backend-focused so
 - Azure AI services for text extraction.
 
 ## 3. System Architecture
-![Palaven-vBeta-Deployment - Deployment](https://github.com/erickbr15/palaven-llm-sat/assets/72543531/b1cc5822-9385-4139-90b6-a43fd229cb3d)
-
+![Palaven-vBeta-Deployment - Deployment (2)](https://github.com/erickbr15/palaven-llm-sat/assets/72543531/c22fcdbf-1b1a-450f-b8e0-3018ac6e3d90)
 
 ## 4. OpenAI API Integration
 ### Chat and Embeddings Services
@@ -35,12 +34,11 @@ Pinecone's capabilities are harnessed in this project using its HTTP API, with c
   - **Upsert Endpoint**: Employed for adding or updating data in the index. This process is crucial for maintaining an up-to-date and relevant dataset for vector searches.
   - **Query Endpoint**: Utilized for executing vector searches. This includes the use of cosine distance measures to find the most relevant vectors in response to queries.
 
-## 6. Data Ingestion Process
+## 6. Data ETL Process
 In this section, we describe the process of ingesting data into the system, which is a critical initial step for building our dataset and enabling efficient search and retrieval operations.
 
 ### Ingestion Workflow
 ![Palaven-vBeta-Deployment - Data](https://github.com/erickbr15/palaven-llm-sat/assets/72543531/41b14620-f513-4817-899a-213e798309f9)
-
 
 ## 7. Document Structure for Ingestion
 This section outlines the structure of the documents used in the data ingestion process, providing clarity on how data is organized and prepared during the ingestion process.
