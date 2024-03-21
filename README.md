@@ -41,11 +41,6 @@ Pinecone's capabilities are harnessed in this project using its HTTP API, with c
 - Specific examples showing the impact of RAG on the project.
 
 ## 11. Licensing and Copyright
-This project is distributed under [specify license type].
-© [Year] [Your Name or Organization's Name]. All rights reserved.
+This project is licensed under the MIT License. For full license details, please refer to the [LICENSE.md](./LICENSE.md) file in this repository.
 
-## 12. Contact and Support
-For support or inquiries, please contact:
-- Email: [your-email@example.com]
-- GitHub: [GitHub link]
-- LinkedIn: [LinkedIn profile link]
+© 2024 Erick Badillo Rangel. All rights reserved.
