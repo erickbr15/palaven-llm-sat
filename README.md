@@ -58,7 +58,7 @@ This section outlines the structure of the documents used in the data ingestion 
 ![Palaven-vBeta-Deployment - RAG - 2](https://github.com/erickbr15/palaven-llm-sat/assets/72543531/3976a083-f5b2-4363-8581-70443c0b831d)
 
 
-## 11. Licensing and Copyright
+## 9. Licensing and Copyright
 This project is licensed under the MIT License. For full license details, please refer to the [LICENSE.md](./LICENSE.md) file in this repository.
 
 © 2024 Erick Badillo Rangel. All rights reserved.
