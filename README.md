@@ -10,25 +10,30 @@ This project leverages .NET 6 (Long Term Support) to create a backend-focused so
 - Pinecone HTTP API setup.
 - Azure AI services for text extraction.
 
-### Configuration
-- Setup instructions for .NET 6 environment.
-- Configuration steps for integrating OpenAI, Pinecone, and Azure AI services.
-
 ## 3. System Architecture
-The system architecture comprises three main components:
-1. **Data Ingestion Console App**: Handles the ingestion of data sources.
-2. **Vector Index Creation Console App**: Responsible for creating the vector index using Pinecone.
-3. **OpenAI Chat API Interaction Console App**: Facilitates testing and interaction with OpenAI's Chat API.
+![Palaven-vBeta-Deployment - Deployment](https://github.com/erickbr15/palaven-llm-sat/assets/72543531/b1cc5822-9385-4139-90b6-a43fd229cb3d)
+
 
 ## 4. OpenAI API Integration
 ### Chat and Embeddings Services
-- Examples of API calls to OpenAI for chat and embeddings functionalities.
-- Expected responses and error handling.
+The project integrates OpenAI's API through HTTP requests, utilizing the .NET `IHttpClient` for connectivity. Key components of this integration include:
+- **Endpoints**:
+  - Chat completion endpoint: Utilized for 1. Extracting the article text, 2. Generating the synthetic questions about each ingested article, 3. Generating responses based on user inputs
+  - Embeddings creation endpoint: Employed for generating embeddings from text data.
+- **Models**:  
+  - `gpt-4`: Employed for state-of-the-art language understanding and generation capabilities in chat completions.
+  - `text-embedding-ada-002`: Used for creating embeddings that capture semantic meanings of texts.
 
 ## 5. Interacting with Pinecone
 ### Using Pinecone's HTTP API
-- Detailed steps for populating the index and querying vectors.
-- Code snippets demonstrating API interactions.
+Pinecone's capabilities are harnessed in this project using its HTTP API, with connectivity managed via the .NET `IHttpClient`. This integration facilitates efficient data management and retrieval using vector search techniques.
+
+### Pinecone HTTP API Integration
+- **Connection Setup**:
+  - Custom setup using .NET `IHttpClient` for a robust and secure connection to Pinecone's API.
+- **Endpoints Usage**:
+  - **Upsert Endpoint**: Employed for adding or updating data in the index. This process is crucial for maintaining an up-to-date and relevant dataset for vector searches.
+  - **Query Endpoint**: Utilized for executing vector searches. This includes the use of cosine distance measures to find the most relevant vectors in response to queries.
 
 ## 6. RAG Implementation
 ### Role of RAG in the LLM
