@@ -52,10 +52,13 @@ This section outlines the structure of the documents used in the data ingestion 
 ![Palaven-vBeta-Deployment - Documents](https://github.com/erickbr15/palaven-llm-sat/assets/72543531/f8c10d0a-1153-46cc-b3db-03d6114416dc)
 
 
-## 6. RAG Implementation
-### Role of RAG in the LLM
-- Explanation of how RAG (Retrieval-Augmented Generation) is implemented.
-- Specific examples showing the impact of RAG on the project.
+## 8. RAG Implementation
+### Scenario 1
+![Palaven-vBeta-Deployment - RAG-1](https://github.com/erickbr15/palaven-llm-sat/assets/72543531/8c864803-7708-4a4f-868d-65a84e6c29fd)
+
+### Scenario 2
+![Palaven-vBeta-Deployment - RAG - 2](https://github.com/erickbr15/palaven-llm-sat/assets/72543531/3976a083-f5b2-4363-8581-70443c0b831d)
+
 
 ## 11. Licensing and Copyright
 This project is licensed under the MIT License. For full license details, please refer to the [LICENSE.md](./LICENSE.md) file in this repository.
